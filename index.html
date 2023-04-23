@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/310/310818.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Header-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark align-middle">
+                <div class="container-fluid ">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-controller " style="font-size: 2rem; color: cornflowerblue;"></i>
+                    <span class="fw-bold"> Gaming</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuD" 
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div id="MenuD" class="collapse navbar-collapse " >
+                    <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Directorio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Plataformas
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Xbox</a></li>
+                        <li><a class="dropdown-item" href="#">Play Station</a></li>
+                        <li><a class="dropdown-item" href="#">Nintendo</a></li>
+                        <li><a class="dropdown-item" href="#">PC</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Emuladores</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+        
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item"><a  class="nav-link" href="login.html">Iniciar Sesion</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="register.html">Registrate</a></li>
+                    </ul>
+        
+                    <form class="d-flex " role="search">
+                    <input class="form-control me-2 mt-3 " type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-primary btn-primary-outline-success mt-3" type="submit">Buscar</button>
+                    </form>
+                </div>
+                </div>
+        </nav>
+        <!--  Slide-->
+        <div class="container-fluid  p-0" >
+
+                <div id="carousel1" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-light" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2" class=" bg-light"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3" class=" bg-light"></button>
+                    </div>
+                    <div class="carousel-inner text-light">
+                    <div class="carousel-item active " data-bs-interval="2000">
+                        <img src="/img/darksouks.jpg" class="d-block w-100"  alt="...">
+                        <div class="carousel-caption d-none d-md-block text-light">
+                        <a href="darksouls.html" class="text-decoration-none text-light"><h5>DarkSouls</h5></a>
+                        <p>En todas las plataformas.</p>
+                        <a href="darksouls.html" class="btn btn-light">Mas Info.</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/halo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-light">
+                        <a href="darksouls.html" class="text-decoration-none text-light"><h5>Halo</h5></a>
+                        <p>Exclusivo Microsoft</p>
+                        <p>Xbox - PC.</p>
+                        <a href="halo.html" class="btn btn-light">Mas Info.</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <img src="/img/uuuu.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-light">
+                        <a href="darksouls.html" class="text-decoration-none text-light"><h5>Uncharted</h5></a>
+                        <p>Exclusivo PlayStation.</p>
+                        <a href="uncharted.html" class="btn btn-light">Mas Info.</a>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            
+        </div>
+        <!-- parrafos-->
+        <div class="container">
+            <div class="col text-center p-2">
+                <p>Todos los juegos lanzados para este 2023 o se esperan sean lanzados.</p>
+            </div>
+        </div>
+        <!--Tarjetas-->
+        <div class="container p-4">
+            <div class="card-group">
+                <div class="card me-2">
+                    <img src="https://store-images.s-microsoft.com/image/apps.26610.66080721822734920.910bec42-dd7c-4bcf-9acb-d97e1b5501f0.5a916954-24f8-4f6e-95e7-74cff29199d9?mode=scale&q=90&h=225&w=150" class="card-img-top " alt="...">
+                    <div class="card-body">
+                    <a href="dead_island.html"  class="text-decoration-none text-dark"><h5 class="card-title">Dead Island 2</h5></a>
+                    <p class="card-text">Dead Island 2 es una experiencia de acción de mundo abierto realizada por Dambuster Studios, el estudio británico conocido por Homefront: The Revolution.</p>
+                    <a href="dead_island.html" class="btn btn-dark">Saber Mas</a>
+                    </div>
+                </div>
+                <div class="card me-2">
+                    <img src="https://i.3djuegos.com/juegos/11592/lords_of_the_fallen_2/fotos/ficha/lords_of_the_fallen_2-5729830.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <a href="dead_island.html"  class="text-decoration-none text-dark"><h5 class="card-title">The Lords of the Fallen</h5></a>
+                    <p class="card-text">The Lords of the Fallen de HEXWORKS es un videojuego de rol y acción oscura que da continuidad al universo creado en 2014 por Deck 13 y CI Games garantizando una épica aventura de fantasía en un inmenso mundo interconectado cinco veces más grande que el del lanzamiento original.</p>
+                    <a href="the_lords_of_the_fallen.html" class="btn btn-dark">Saber Mas</a>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="https://i.3djuegos.com/juegos/18517/miasma_chronicles/fotos/ficha/miasma_chronicles-5664145.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <a href="miasma_chronicles.html"  class="text-decoration-none text-dark"><h5 class="card-title">Miasma Chronicles</h5></a>
+                    <p class="card-text">Miasma Chronicles es un videojuego de acción que combina exploración en tiempo real con secuencias de combate táctico por turnos con elementos RPG.</p>
+                    <a href="miasma_chronicles.html" class="btn btn-dark">Saber Mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="container-fluid bg-dark text-light  text-center p-0">
+            
+
+        <div class=" p-3 me-auto align-items-center  justify-content-center d-flex row">
+
+            <div class="col-md p-0 me-auto align-items-center  justify-content-center d-flex">
+                <div>
+                    <i class="bi bi-controller mx-auto " style="font-size: 5rem; color: cornflowerblue;"></i>
+                </div>
+                <div>
+                    <span class="fw-bold fs-5"> Gaming</span>
+                </div>
+                <hr>
+            </div>
+
+
+            <div class="col-md mt-5">
+                <p><u>Datos De Interes</u></p>
+                <p>Nosotros</p>
+                <p>Noticias</p>
+                <p>Telefono: +33 754284224</p>
+                <p class="text-dark">texto </p>
+                
+            </div>
+
+            <div class="col-md mt-2">
+                <p><u>Enlaces</u></p>
+                <p>Play Station</p>
+                <p>Xbox</p>
+                <p>Nintendo</p>
+                <p>PC</p>
+                <p>Emulador</p>
+                
+            </div>
+
+            <div class="col-md  mt-5">
+                <p><u>Redes Sociales</u></p>
+
+                <div >
+                <a href="#"><i class="bi bi-facebook"></i></a><span class="ms-1">Facebook</span>
+                <a href="#"><i class="bi bi-whatsapp"></i></a><span class="ms-1">Whatsapp</span>
+                </div>
+
+                <div>
+                <a href="#"><i class="bi bi-twitter"></i></a><span class="ms-1">Twitter</span>
+                <a href="#"><i class="bi bi-youtube"></i></a><span class="ms-1">YouTube</span>
+                </div>
+                
+            </div>
+
+                <hr>
+
+        </div>
+
+            <div >
+                <p>Todos los derechos reservados © 2023 Javier Gaviria</p>
+                <hr>
+            </div>
+
+            <hr>
+
+    </div>
+    </body>
+</html>
